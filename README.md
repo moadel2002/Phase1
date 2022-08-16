@@ -1,6 +1,6 @@
-# bld.ai frontend project phase1
+# bld.ai frontend project phase1 and phase2
 ### The phase was about creating a web page like Udemy using HTML and CSS 
-
+### Making the search bar works using javascript
 
 
 
