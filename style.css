@@ -2,6 +2,7 @@ body{
     font-family: sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto,
     segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
     segoe ui symbol;
+    
 }
 
 .select{
@@ -98,6 +99,13 @@ div a{
     background-color: white;
     font-size: 20px;
 }
+.fields button:focus{
+    border-style: none;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
 .explore{
     background-color: white;
     height: 40px;
@@ -126,6 +134,7 @@ div a{
 .courses div{
     padding: 1%;
 }
+
 .courses img{
     width: 100%;
     height: auto;
@@ -135,7 +144,30 @@ div a{
     display: flex;
     flex-wrap: wrap;
 }
-
+.category {
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  
+  .category img {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  .category h2 {
+    margin: 0px 0 4px 0;
+    font-weight: 700;
+    display: -webkit-box;
+    color: #1c1d1f;
+    font-size: medium;
+  }
+  .padded-sections {
+    margin: 42px 8px;
+    padding: 0 24px;
+  }
 @media screen and (min-width: 1000px) {
     .menu-btn{
         display: none;
